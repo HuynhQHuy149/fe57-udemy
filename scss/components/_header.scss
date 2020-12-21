@@ -1,0 +1,14 @@
+.header_left {
+  //   display: flex;
+  //   align-items: center;
+  a {
+    flex-grow: 1;
+  }
+  .categories {
+    flex-grow: 1;
+    i {
+      color: gray;
+    }
+  }
+  @include search();
+}

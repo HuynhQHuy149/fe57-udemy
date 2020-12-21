@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 1140px;
+}
+
+.header_left a {
+  flex-grow: 1;
+}
+
+.header_left .categories {
+  flex-grow: 1;
+}
+
+.header_left .categories i {
+  color: gray;
+}
+
+.header_left form {
+  flex-grow: 5;
+  background-color: whitesmoke;
+}
+
+.header_left form .input-group {
+  border: 1px solid #00000026;
+}
+
+.header_left form i {
+  color: #e40cd4;
+  padding: 0.8rem;
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.header_left form i:hover {
+  background: red;
+  color: white;
+}
+
+.header_left form input {
+  border: transparent;
+  background-color: transparent;
+}
+
+.header_left form input:focus {
+  box-shadow: none;
+}
+
+#carousel {
+  background-image: url(./../../img/cover.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#carousel form {
+  flex-grow: 5;
+  background-color: whitesmoke;
+}
+
+#carousel form .input-group {
+  border: 1px solid #00000026;
+}
+
+#carousel form i {
+  color: #e40cd4;
+  padding: 0.8rem;
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+#carousel form i:hover {
+  background: red;
+  color: white;
+}
+
+#carousel form input {
+  border: transparent;
+  background-color: transparent;
+}
+
+#carousel form input:focus {
+  box-shadow: none;
+}
+/*# sourceMappingURL=style.css.map */
