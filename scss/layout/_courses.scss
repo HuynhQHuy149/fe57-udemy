@@ -1,0 +1,31 @@
+#courses .intro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(-45deg, #ec5252 0%, #6e1a52 100%);
+  color: #ffffff;
+  padding: 0.75rem 0;
+}
+#courses .info {
+  display: flex;
+  align-items: center;
+}
+#courses .info i {
+  font-size: 2.75rem;
+  margin-right: 1rem;
+  color: #ffffff;
+}
+#courses .info p {
+  margin-bottom: 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+#courses .list {
+  padding-top: 2rem;
+}
+#courses .left {
+  background: #f7f8fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
