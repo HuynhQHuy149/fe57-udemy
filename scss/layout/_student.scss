@@ -1,18 +1,23 @@
 #student {
   background: #f7fafb;
-}
-#student .comment {
-  background: #ffffff;
-  margin: 0.5rem;
-}
-#student .img img {
-  border: 1px solid #ffffff;
-  border-radius: 50%;
-  width: 8rem;
-  height: 8rem;
-}
-#student .avatar {
-  width: 8rem;
-  height: 8rem;
-  background-color: rgb(104 111 122);
+  .comment {
+    background: #ffffff;
+    padding: 1rem;
+    height: 100%;
+  }
+  img {
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+  }
+  .avatar {
+    width: 5rem;
+    height: 5rem;
+    background: #686f7a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
