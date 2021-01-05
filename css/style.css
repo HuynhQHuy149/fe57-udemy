@@ -99,12 +99,12 @@
           box-shadow: none;
 }
 
-.slick-prev:before,
-.slick-next:before {
+#bestseller .slick-prev:before,
+#bestseller .slick-next:before {
   color: #000 !important;
 }
 
-.buttons {
+#bestseller .buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -113,7 +113,7 @@
           justify-content: center;
 }
 
-.buttons .button {
+#bestseller .buttons .button {
   margin: 8px;
   border: 1px solid #000;
   color: #000;
@@ -124,12 +124,33 @@
   transition: all 300ms ease;
 }
 
-.buttons .button :hover {
+#bestseller .buttons .button :hover {
   cursor: pointer;
   background-color: #000;
   color: #fff;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
+}
+
+#bestseller .slick5 .vote i {
+  color: #dedfe0;
+  font-size: 0.685rem;
+}
+
+#bestseller .slick5 .vote .rate {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#bestseller .slick5 .vote .rate i {
+  color: #f4c150;
+  font-size: 0.685rem;
+}
+
+#bestseller .slick5 .vote .rate i:nth-child(5)::before {
+  color: #f4c150;
+  content: "\f089";
 }
 
 #cate {
@@ -258,18 +279,18 @@
   font-size: 0.685rem;
 }
 
-#courses .list .rate {
+#courses .list .vote .rate {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-#courses .list .rate i {
+#courses .list .vote .rate i {
   color: #f4c150;
   font-size: 0.685rem;
 }
 
-#courses .list .rate i:nth-child(5)::before {
+#courses .list .vote .rate i:nth-child(5)::before {
   color: #f4c150;
   content: "\f089";
 }

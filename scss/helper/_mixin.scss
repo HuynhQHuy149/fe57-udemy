@@ -35,18 +35,18 @@
       color: #dedfe0;
       font-size: 0.685rem;
     }
-  }
-  .rate {
-    position: absolute;
-    top: 0;
-    left: 0;
-    i {
-      color: #f4c150;
-      font-size: 0.685rem;
-    }
-    i:nth-child(5)::before {
-      color: #f4c150;
-      content: "\f089";
+    .rate {
+      position: absolute;
+      top: 0;
+      left: 0;
+      i {
+        color: #f4c150;
+        font-size: 0.685rem;
+      }
+      i:nth-child(5)::before {
+        color: #f4c150;
+        content: "\f089";
+      }
     }
   }
 }

@@ -1,4 +1,5 @@
-.slick-prev:before,
+#bestseller {
+  .slick-prev:before,
   .slick-next:before {
     color: #000 !important;
   }
@@ -22,3 +23,7 @@
       }
     }
   }
+  .slick5 {
+    @include star();
+  }
+}
